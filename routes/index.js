@@ -3,7 +3,7 @@ const user = require('../components/user/controller');
 const notes = require('../components/notes/controller');
 
 const routes = (server) => {
-    server.use('/user', user)
+    server.use('/users', user)
     server.use('/notes', notes)
 };
 
